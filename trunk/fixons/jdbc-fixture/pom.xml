@@ -5,12 +5,12 @@
 	<parent>
 		<groupId>org.fixons.fixture</groupId>
 		<artifactId>root</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>1.0.0</version>
 	</parent>
 
 	<groupId>org.fixons.fixtures</groupId>
 	<artifactId>jdbc-fixture</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 	<name>JDBC Fixture</name>
 
