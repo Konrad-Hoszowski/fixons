@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.fixons.fixture</groupId>
+	<artifactId>root</artifactId>
+	<version>1.0.0</version>
+	<name>Fixtures root pom</name>
+	<packaging>pom</packaging>
+
+	<properties>
+		<junit.version>4.8.1</junit.version>
+		<log4j.version>1.2.15</log4j.version>
+		<fitnesse.version>20100303</fitnesse.version>
+		<maven.compiler.source>1.6</maven.compiler.source>
+		<maven.compiler.target>1.6</maven.compiler.target>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.fitnesse</groupId>
+				<artifactId>fitnesse</artifactId>
+				<version>${fitnesse.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>apache-log4j</groupId>
+				<artifactId>log4j</artifactId>
+				<version>${log4j.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>${junit.version}</version>
+				<scope>test</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+</project>
