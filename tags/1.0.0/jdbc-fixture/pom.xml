@@ -8,7 +8,6 @@
 		<version>1.0.0</version>
 	</parent>
 
-	<groupId>org.fixons.fixtures</groupId>
 	<artifactId>jdbc-fixture</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
