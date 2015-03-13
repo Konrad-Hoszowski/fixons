@@ -1,0 +1,1 @@
+The main goal of the project is to build library of useful fixtures used by FitNesse
